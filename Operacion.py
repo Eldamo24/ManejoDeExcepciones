@@ -33,7 +33,6 @@ class Operacion:
             return self._num1 / self._num2
         except ZeroDivisionError:
             print("Intentas dividir por cero pero no es posible...")
-        finally:
             return 0
 
     def __str__(self):
